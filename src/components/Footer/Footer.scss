@@ -1,0 +1,22 @@
+.footer-button {
+  height: 60px;
+  width: 50%;
+  font-weight: bold;
+  font-size: 18px;
+  border: 0;
+  color: white;
+  cursor: pointer;
+
+  &.dark-grey {
+    background-color: $dark-grey;
+  }
+
+  &.orange {
+    background-color: $orange;
+  }
+
+  &.disabled {
+    background-color: $light-grey;
+    color: $dark-grey;
+  }
+}

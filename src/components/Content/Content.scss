@@ -1,0 +1,27 @@
+.content {
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .content-photo {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+  }
+
+  .content-name {
+    text-transform: capitalize;
+    color: black;
+    font-size: 32px;
+  }
+
+  .content-age {
+    font-size: 14px;
+    color: black;
+  }
+
+  .is-loading {
+    color: black;
+  }
+}

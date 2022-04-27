@@ -1,0 +1,12 @@
+@import "./variables";
+@import "components/Header/Header.scss";
+@import "components/Footer/Footer.scss";
+@import "components/Content/Content.scss";
+
+.app-container {
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  font-family: Roboto, sans-serif;
+}
